@@ -553,6 +553,15 @@ ul {
 /*==============================
 	Hero
 ==============================*/
+.full-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -707,9 +716,8 @@ ul {
 }
 .hero__btn {
   position: relative;
-  width: calc(50% - 10px);
   max-width: 200px;
-  height: 60px;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -722,7 +730,6 @@ ul {
     #ed5174 97.49%
   );
   border-radius: 20px;
-  /* border: 2px solid #e23353; */
 }
 .hero__btn span {
   display: flex;
@@ -733,8 +740,8 @@ ul {
   z-index: 3;
   color: #fff;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: bold;
   letter-spacing: 1px;
   line-height: 100%;
   transition: color 0.5s ease;
@@ -1533,6 +1540,16 @@ ul {
   min-width: 180px;
   padding: 12px 20px;
   background: #1d263b;
+}
+@media (max-width: 568px) {
+  .header__logo img {
+    height: 35px;
+    width: auto;
+  }
+}
+@media (max-width: 568px) {
+  .d_none {
+  }
 }
 @media (min-width: 768px) {
   .filter {
