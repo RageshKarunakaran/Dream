@@ -622,8 +622,11 @@ ul {
   width: 100%;
   height: 100%;
   /* background-color: #1d263b; */
-  background: url(../img/banner-bg-3.jpg);
+  background: url(https://gamic.themerex.net/wp-content/uploads/2022/09/Pexels-Videos-2759479.mp4);
   border-radius: 20px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   padding: 60px 20px;
   position: relative;
   overflow: hidden;
@@ -806,7 +809,7 @@ ul {
 }
 @media (min-width: 1200px) {
   .hero__content {
-    height: calc(100vh - 220px);
+    height: calc(100vh - 20px);
     padding: 80px;
   }
   .hero__content--left {
@@ -828,7 +831,7 @@ ul {
 }
 @media (min-width: 1400px) {
   .hero__content {
-    max-height: 550px;
+    max-height: 750px;
   }
 }
 /*==============================
@@ -1124,6 +1127,12 @@ ul {
 }
 .section__tokenomics li.clr9:before {
   background-color: #e23353;
+}
+.section__tokenomics li.clr10:before {
+  background-color: #b5ea18;
+}
+.section__tokenomics li.clr11:before {
+  background-color: #0813e5;
 }
 .section__content {
   display: flex;
@@ -1780,7 +1789,7 @@ ul {
 }
 @media (min-width: 1200px) {
   .splide--content .splide__arrows {
-    width: 1110px;
+    width: 100%;
     margin: 0 auto;
   }
   .splide--content .splide__arrow {
@@ -2088,7 +2097,7 @@ ul {
   align-items: flex-start;
   position: relative;
   overflow: hidden;
-  min-height: 385px;
+  min-height: 450px;
   margin-bottom: 1.5rem;
 }
 .features:hover .features__title:before {
@@ -3164,7 +3173,12 @@ ul {
   align-items: flex-start;
   margin-top: 20px;
   border-radius: 20px;
-  background-color: #1d263b;
+  background: linear-gradient(
+    92.34deg,
+    #fdce39 1.68%,
+    #fd8963 50.6%,
+    #ed5174 98.82%
+  );
   padding: 20px;
   width: 100%;
 }
@@ -3172,7 +3186,7 @@ ul {
   z-index: 3;
   margin-top: 60px;
 }
-.game--hero:before {
+/* .game--hero:before {
   content: "NEW";
   position: absolute;
   display: flex;
@@ -3191,7 +3205,7 @@ ul {
   font-weight: 700;
   letter-spacing: 1px;
   padding-top: 2px;
-}
+} */
 .game--cover {
   z-index: 3;
   margin-top: 60px;
@@ -3257,7 +3271,7 @@ ul {
 .game__head {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
 }
@@ -3434,6 +3448,11 @@ ul {
     right: 80px;
     top: 50%;
     transform: translateY(-50%);
+    text-align: center;
+    justify-content: c "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 /*==============================
@@ -6050,20 +6069,24 @@ ul {
   }
 }
 #timer {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 100;
-  color: #fdc83e;
-  text-shadow: 0 0 20px #48c8ff;
+  color: #000;
+  /* text-shadow: 0 0 20px #48c8ff; */
 }
 
 #timer div {
   display: inline-block;
-  min-width: 90px;
+  min-width: 70px;
 }
 
 #timer div span {
-  color: #b1cdf1;
+  color: #000;
   display: block;
   font-size: 0.35em;
   font-weight: 400;
+}
+.new {
+  position: absolute;
+  bottom: 26px;
 }
