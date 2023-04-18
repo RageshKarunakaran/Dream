@@ -6107,3 +6107,9 @@ ul {
   position: absolute;
   bottom: 26px;
 }
+.token .hero__content {
+  height: 256px;
+}
+.header .footer__social a {
+  width: 50px;
+}

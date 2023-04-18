@@ -75,7 +75,7 @@
     for (var i = 0; i < elms.length; i++) {
       new Splide(elms[i], {
         type: "loop",
-        perPage: 4,
+        perPage: 3,
         drag: true,
         autoplay: true,
         pagination: false,
