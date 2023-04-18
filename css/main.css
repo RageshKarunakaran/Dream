@@ -1543,7 +1543,7 @@ ul {
 }
 @media (max-width: 568px) {
   .header__logo img {
-    height: 35px;
+    height: 30px;
     width: auto;
   }
 }
@@ -6112,4 +6112,18 @@ ul {
 }
 .header .footer__social a {
   width: 50px;
+  margin-top: 0;
+}
+.game--hero .hero__btn {
+  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .hero__btns {
+    justify-content: center;
+    gap: 15px;
+  }
+  .hero__btn {
+    padding: 1rem 0.5rem;
+  }
 }
