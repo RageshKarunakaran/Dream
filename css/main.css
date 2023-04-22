@@ -6144,7 +6144,7 @@ ul {
   width: 100%;
   transition: all 0.5s ease-in-out;
   border-radius: 10px;
-  filter: hue-rotate(150deg);
+  filter: hue-rotate(60deg);
   min-height: 410px;
 }
 .card:hover {
@@ -6233,4 +6233,26 @@ ul {
 
 .card4 {
   filter: hue-rotate(90deg);
+}
+.social_links a svg {
+  width: 24px;
+  height: 24px;
+  filter: brightness(1) invert(1);
+}
+.social_links {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: grid;
+  background: linear-gradient(45deg, #d129d8, #7e2af5);
+  padding: 0.5rem;
+  gap: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+.sticky {
+  position: sticky;
+  top: 50%;
+  bottom: 50%;
+  z-index: 99;
+  transform: translateY(-50px);
 }
