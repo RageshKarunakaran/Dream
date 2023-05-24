@@ -177,10 +177,14 @@ ul {
   width: 100%;
   top: 0;
   left: 0;
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6.5px );
+  -webkit-backdrop-filter: blur( 6.5px );
   z-index: 99;
   background-color: transparent;
   transition: background-color 0.5s ease;
-  background-color: #150b2d;
+  /* background-color: #150b2d; */
   border-bottom: 1px solid rgba(170, 114, 206, 0.12);
 }
 .header--active .header__logo {
@@ -690,6 +694,9 @@ ul {
   text-align: center;
   position: relative;
   z-index: 3;
+  background: -webkit-linear-gradient(#ec00ff, #eaa402, #ed28cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hero__text {
   font-size: 16px;
@@ -828,8 +835,8 @@ ul {
     text-align: left;
   }
   .hero__title {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 80px;
+    line-height: 1.2;
   }
   .hero__btns {
     justify-content: flex-start;
@@ -894,7 +901,7 @@ ul {
   color: #e23353;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 100%;
   margin-bottom: 15px;
 }
@@ -1189,7 +1196,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  /* background-color: rgba(29, 38, 59, 0.8); */
+  background-color:rgb(22 9 45 / 76%);
   pointer-events: none;
   z-index: 2;
 }
@@ -1267,7 +1274,7 @@ ul {
   .section__carousel--block:before {
     left: 40px;
     right: 40px;
-    top: 97px;
+    top: 129px;
   }
   .section__chart {
     width: 465px;
@@ -6139,7 +6146,7 @@ ul {
 .card {
   padding-top: 100px;
   transform-style: preserve-3d;
-  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url('../img/newbg.jpg');
   background-position: center center;
   width: 100%;
   transition: all 0.5s ease-in-out;
