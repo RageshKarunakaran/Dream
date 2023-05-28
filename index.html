@@ -13,36 +13,54 @@
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/slimselect.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="img/our_logo.png" />
     <link rel="apple-touch-icon" href="img/our_logo.png" />
 
-    <meta name="description" content="Dreamster is a remarkable project that comes with a series of pioneering crypto products to give creators, collectors, and web3 enthusiasts a unique social experience." />
+    <meta
+      name="description"
+      content="Dreamster is a remarkable project that comes with a series of pioneering crypto products to give creators, collectors, and web3 enthusiasts a unique social experience."
+    />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <meta property="og:title" content="Dreamster - An All-In-One Social Hub" />
-<meta property="og:description" content="Dreamster is a remarkable project that comes with a series of pioneering crypto products to give creators, collectors, and web3 enthusiasts a unique social experience." />
-<meta property="og:image" content="img/og.jpeg" />
+    <meta
+      property="og:description"
+      content="Dreamster is a remarkable project that comes with a series of pioneering crypto products to give creators, collectors, and web3 enthusiasts a unique social experience."
+    />
+    <meta property="og:image" content="img/og.jpeg" />
     <title>Dreamster - An All-In-One Social Hub</title>
     <link rel="canonical" href="https://dreamster.world/" />
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SR9J069THP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SR9J069THP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-SR9J069THP');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-55GLZBH');</script>
-  <!-- End Google Tag Manager -->
-  
+      gtag("config", "G-SR9J069THP");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-55GLZBH");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body>
@@ -174,13 +192,85 @@
       </div>
     </header>
     <!-- end header -->
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center" data-aos="fade-up">
+              <img
+                src="img/our_logo.png"
+                width="100%"
+                height="auto"
+                style="max-width: 400px"
+              />
+              <h1 class="hero__title mt-5">
+                Socialize, Create, Buy, Sell, Swap NFTs and Crypto
+              </h1>
+              <div
+                class="hero__btns hero__btns--left text-center justify-content-center"
+              >
+                <a href="#" class="hero__btn"
+                  ><span>Try One Month Free</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-5">
+            <div class="music_mobile">
+              <div
+                class="mobile"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="100"
+              >
+                <img src="img/mobiletemp.png" />
+              </div>
+              <div
+                class="mobile"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="500"
+              >
+                <img src="img/mobiletemp.png" />
+              </div>
+              <div
+                class="mobile"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="1000"
+              >
+                <img src="img/mobiletemp.png" />
+              </div>
+              <div
+                class="mobile"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="1500"
+              >
+                <img src="img/mobiletemp.png" />
+              </div>
+              <div
+                class="mobile"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="2000"
+              >
+                <img src="img/mobiletemp.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- hero -->
     <section class="hero" id="hero">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <!-- hero content (left) -->
-            <div class="hero__content hero__content--left">
+            <div class="hero__content hero__content--left" data-aos="fade-up">
               <video
                 muted
                 loop
@@ -189,10 +279,7 @@
                 height="auto"
                 class="full-image"
               >
-                <source
-                  src="img/newvideo.mp4"
-                  type="video/mp4"
-                />
+                <source src="img/finalvideo.m4v" type="video/mp4" />
               </video>
               <!-- <span class="hero__tagline">Dreamster</span> -->
               <h1 class="hero__title">
@@ -236,8 +323,11 @@
                   <div id="timer"></div>
                 </div> -->
 
-                <div class="hero__btns hero__btns--left">
-                  <a href="https://forms.gle/ghUuHo9NNEmxkgwq6" target="_blank" class="hero__btn"
+                <div class="hero__btns hero__btns--left" data-aos="zoom-in">
+                  <a
+                    href="https://forms.gle/ghUuHo9NNEmxkgwq6"
+                    target="_blank"
+                    class="hero__btn"
                     ><span>Join The Whitelist</span></a
                   >
                 </div>
@@ -253,7 +343,7 @@
 
     <div class="section mt-5">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up">
           <div class="col-lg-8 offset-lg-2 text-center">
             <div class="">
               <!-- article content -->
@@ -272,6 +362,7 @@
 
               <div
                 class="hero__btns hero__btns--left"
+                data-aos="zoom-in"
                 style="justify-content: center"
               >
                 <a href="https://dreamster.market/" class="hero__btn"
@@ -359,9 +450,7 @@
                             view or listen to Creators music or video NFTs.
                           </p>
                           <div class="hero__btns--left new mt-3">
-                            <a
-                              href="https://dreamster.gitbook.io/docs/solutions/dreamster-audio-video-player-davp"
-                              class="hero__btn"
+                            <a href="music.html" class="hero__btn"
                               ><span>Explore</span></a
                             >
                           </div>
@@ -518,26 +607,16 @@
 
     <!-- roadmap -->
     <section class="section section--light" id="roadmap">
-      <video
-                muted
-                autoplay
-                width="100%"
-                height="auto"
-                class="full-image"
-              >
-                <source
-                  src="img/videoone.mp4"
-                  type="video/mp4"
-                />
-              </video>
+      <video muted autoplay width="100%" height="auto" class="full-image">
+        <source src="img/nana.m4v" type="video/mp4" />
+      </video>
       <div class="container">
         <div class="row">
           <!-- section title -->
           <div class="col-12">
-            
             <div class="section__title section__title--carousel">
-              <h2>Roadmap</h2>
-              <p>
+              <h2 class="text-white">Roadmap</h2>
+              <p class="text-white">
                 Our roadmap is driven by our commitment to innovation and
                 excellence. It focuses on delivering a series of key milestones
                 that will drive the growth and adoption of our platform. Our
@@ -678,14 +757,13 @@
           <!-- end carousel -->
         </div>
       </div>
-
     </section>
     <!-- end roadmap -->
 
     <!-- sponsors -->
     <section class="section mt-5" id="partner">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up">
           <div class="col-12">
             <div class="section__title section__title--between">
               <h2>Some Of Our <br />Awesome Partners</h2>
@@ -1834,7 +1912,12 @@
               d="M21.20905,6.41669H22V4.08331H14.51978l-2.48584,9.16663h-.068L9.50269,4.08331H2V6.41663h.76837A.89578.89578,0,0,1,3.5,7.11139v9.83032a.84093.84093,0,0,1-.73163.6416H2v2.33338H8V17.58331H6.5V7.25h.08752L10.0451,19.91669h2.712L16.25989,7.25h.07355V17.58331H14.83337v2.33338H22V17.58331h-.79095a.83931.83931,0,0,1-.70905-.6416V7.11145A.8976.8976,0,0,1,21.20905,6.41669Z"
             /></svg
         ></a>
-        <a href="https://t.me/DreamsterNFT" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"/></svg></a>
+        <a href="https://t.me/DreamsterNFT" target="_blank"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"
+            /></svg
+        ></a>
       </div>
     </div>
 
@@ -1895,7 +1978,12 @@
                       d="M21.20905,6.41669H22V4.08331H14.51978l-2.48584,9.16663h-.068L9.50269,4.08331H2V6.41663h.76837A.89578.89578,0,0,1,3.5,7.11139v9.83032a.84093.84093,0,0,1-.73163.6416H2v2.33338H8V17.58331H6.5V7.25h.08752L10.0451,19.91669h2.712L16.25989,7.25h.07355V17.58331H14.83337v2.33338H22V17.58331h-.79095a.83931.83931,0,0,1-.70905-.6416V7.11145A.8976.8976,0,0,1,21.20905,6.41669Z"
                     /></svg
                 ></a>
-                <a href="https://t.me/DreamsterNFT" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"/></svg></a>
+                <a href="https://t.me/DreamsterNFT" target="_blank"
+                  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"
+                    /></svg
+                ></a>
               </div>
 
               <small class="footer__copyright">© Dreamster, 2023—2024 </small>
@@ -1982,6 +2070,10 @@
     <script src="js/vanta.cells.min.js"></script>
     <script src="js/main.js"></script>
     <script src="jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       function updateTimer() {
