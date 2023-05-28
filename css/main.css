@@ -263,6 +263,7 @@ ul {
   position: fixed;
   width: 280px;
   top: 80px;
+  height: 100vh;
   bottom: 0;
   left: 0;
   background-color: #141a2a;
@@ -286,7 +287,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   font-weight: bold;
-  color: #1d1d1f;
+  color: #fff;
   text-transform: uppercase;
 }
 .header__nav a svg {
@@ -438,7 +439,10 @@ ul {
 }
 @media (max-width: 425px) {
   .music_mobile {
-    flex-wrap: wrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
   }
 }
 @media (min-width: 576px) {
