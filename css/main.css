@@ -213,7 +213,7 @@ ul {
   pointer-events: none;
 }
 .header__logo img {
-  height: 50px;
+  height: 180px;
   width: auto;
 }
 .header__btn {
@@ -599,10 +599,10 @@ ul {
 .hero__slider-wrap:before {
   content: "";
   position: absolute;
-  top: 0;
+  /* top: 0; */
   left: 0;
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
   background: linear-gradient(
     180deg,
     rgba(29, 38, 59, 0.6) 0%,
@@ -855,7 +855,7 @@ ul {
     text-align: left;
   }
   .hero__title {
-    font-size: 80px;
+    font-size: 56px;
     line-height: 1.2;
   }
   .hero__btns {
@@ -1570,7 +1570,7 @@ ul {
 }
 @media (max-width: 568px) {
   .header__logo img {
-    height: 30px;
+    height: 130px;
     width: auto;
   }
 }
