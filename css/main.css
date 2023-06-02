@@ -1085,7 +1085,7 @@ ul {
   background-color: #e23353;
 }
 .section__carousel--block {
-  background-color: #141a2a;
+  background-color: #fff;
   border-radius: 20px;
   margin-top: 20px;
   padding: 30px 20px;
@@ -3035,7 +3035,7 @@ ul {
   height: 24px;
   left: 0;
   top: 42px;
-  background-color: #fff;
+  background-color: #000;
   opacity: 0.12;
   z-index: 1;
 }
@@ -3044,7 +3044,7 @@ ul {
   height: 10px;
   left: 7px;
   top: 49px;
-  background-color: #fff;
+  background-color: #000;
   z-index: 2;
 }
 .roadmap--active:before,
@@ -3063,7 +3063,7 @@ ul {
 .roadmap__title {
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   display: block;
   margin-bottom: 50px;
@@ -3081,7 +3081,7 @@ ul {
   margin-left: 10px;
 }
 .roadmap__list li {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 12px;
