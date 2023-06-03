@@ -478,7 +478,7 @@ ul {
     letter-spacing: 0.4px;
     text-transform: uppercase;
     font-size: 13px;
-    color: #1d1d1f;
+    color: #fff;
     transition: 0.5s ease;
     font-weight: 700;
   }
@@ -708,15 +708,15 @@ ul {
 .hero__title {
   font-size: 40px;
   line-height: 54px;
-  color: #1d1d1f;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
   position: relative;
   z-index: 3;
-  background: -webkit-linear-gradient(#ec00ff, #eaa402, #ed28cf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: #fff; */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 .hero__text {
   font-size: 16px;
